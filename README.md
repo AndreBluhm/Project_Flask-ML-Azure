@@ -1,9 +1,8 @@
 # Project: Machine LEarning Flask App on Azure
 
-![Alt Image text](https://github.com/AndreBluhm/Project_Flask-ML-Azure/blob/master/Coursera_Coursera_Cloud-Machine-Learning-Engineering-MLOps.png?raw=true)
-
-# flask-ml-azure-serverless
 Deploy Flask Machine Learning Application on Azure App Services
+
+![Alt Image text](https://github.com/AndreBluhm/Project_Flask-ML-Azure/blob/master/Coursera_Coursera_Cloud-Machine-Learning-Engineering-MLOps.png?raw=true)
 
 ## To run it locally follow these steps
 
@@ -53,8 +52,6 @@ You will see this output:
 
 Change the line in `make_predict_azure_app.sh` to match the deployed prediction
 `-X POST https://<yourappname>.azurewebsites.net:$PORT/predict `
-
-![5-successful-prediction](https://user-images.githubusercontent.com/58792/89557573-02a1e800-d7e1-11ea-8318-1c628e13dae7.png)
 
 6. [Create an Azure DevOps project and connect to Azure, (as official documentation describes)](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops)
 
